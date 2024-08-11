@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.novoitem {
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 2px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 2px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 2px;
+}
+
+.itens input {
+    margin-right: 5px;
+}
+
+
+button {
+    margin-left: 5px;
+}
+
+h1 {
+    padding: 5px;
+}
