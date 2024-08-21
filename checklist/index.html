@@ -3,45 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./script.js" defer ></script>
 <link rel="stylesheet" href="style.css">
 <title>Checklist</title>
 </head>
-<body>
+
+<body onload="init()">
 
     <main>
-        <section>
-            <h1>TODO LIST</h1>
-        </section>
+        <div class="h1">
+            <h1>TODO-LISTO</h1>
+        </div>
 
-        <section class="novoitem">
-            <input type="text" placeholder="Novo item">
-            <button>Criar</button>
-        </section>
+        <p>
+            <input type="hidden" name="" id="nome">
+            <input type="text" id="inputrf" class="inputrf" placeholder="Novo-item">
+            <button class="material-symbols-outlined add-button"onclick="salvarTarefa()">adicionar</button>
+            <button class="material-symbols-outlined add-button"onclick="salvarTarefa()">excluir</button>
+        </p>
+
     </main>
-    
 
-    <main class="itens">
-        <section class="a">
-            <input type="checkbox" class="ina">
-            <p>Atividade 1</p>
-            <button>Editar</button>
-            <button>Excluir</button>
-        </section>
-
-        <section class="b">
-            <input type="checkbox" class="inb">
-            <p>Atividade 2</p>
-            <button>Editar</button>
-            <button>Excluir</button>
-        </section>
-         
-        <section class="c">
-            <input type="checkbox" class="inc">
-            <p>Atividade 3</p>
-            <button>Editar</button>
-            <button>Excluir</button>
-        </section>
-        
-    </main>
 </body>
 </html>
